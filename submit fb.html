@@ -1,0 +1,60 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="/css/submit.css">
+</head>
+<body>
+    <header>
+        <header>
+            <h1><span class="highlight">Quick</span>Feedback</h1>
+            <p>Real-time feedback system for conferences & hackathons</p>
+            <nav>
+                <button class="nav-btn">Live Ticker</button>
+                 <a href="submit fb.html"><button class="nav-btn" >Submit Feedback</button></a> 
+                <button class="nav-btn">Admin Panel</button>
+            </nav>
+        </header>
+
+    <div class="container">
+        <h2>Submit Your Feedback</h2>
+        <form id="feedbackForm">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="category">Category</label>
+            <select id="category" required>
+                <option value="">Select category</option>
+                <option value="General">General</option>
+                <option value="Workshop">Workshop</option>
+                <option value="Networking">Networking</option>
+                <option value="Food">Food</option>
+                <option value="Venue">Venue</option>
+                <option value="Speaker">Speaker</option>
+            </select>
+
+            <label for="feedback">Your Feedback</label>
+            <textarea id="feedback" placeholder="Share your thoughts..." required></textarea>
+
+            <label>Rating</label>
+            <div class="rating">
+                <span data-value="1">1</span>
+                <span data-value="2">2</span>
+                <span data-value="3">3</span>
+                <span data-value="4">4</span>
+                <span data-value="5">5</span>
+            </div>
+            <input type="hidden" id="rating" required>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+        <p id="successMessage" class="hidden">Thank you for your feedback! 🎉</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

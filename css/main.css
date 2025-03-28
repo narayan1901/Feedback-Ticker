@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1e3a8a, #111827);
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.highlight {
+    color: #ec4899;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.nav-btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.nav-btn:hover {
+    background: #444;
+}
+
+.live-fb {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background: #1f2937;
+    border-radius: 10px;
+}
+
+.fb-container {
+    text-align: left;
+}
+
+.feedback-card {
+    background: #374151;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    position: relative;
+}
+
+.tag {
+    background: #6b7280;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.time {
+    color: #9ca3af;
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+
+.rating {
+    background: #10b981;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
