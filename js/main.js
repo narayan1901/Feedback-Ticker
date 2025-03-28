@@ -18,9 +18,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Simulated real-time updates (Every 5 seconds)
     setInterval(() => {
-        const users = ["John Doe", "Jane Smith", "Attendee 12"];
+        const users = ["narayan", "anjali", "Attendee 12"];
         const messages = ["Loved the workshop!", "Great insights on AI.", "Well-organized event!"];
-        const categories = ["Workshop", "General", "Networking"];
+        const categories = ["Workshop", "General", "Networking","conference","venue","speaker"];
         const ratings = [4, 5, 3];
 
         const randomIndex = Math.floor(Math.random() * users.length);
